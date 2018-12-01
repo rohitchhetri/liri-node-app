@@ -26,7 +26,6 @@ How to use this LIRI Bot:
         Using Request Module here     
         ![concert-this](https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/concert-this.png)
 
-
     2b. node liri.js spotify-this-song <anysongname>
         Using console.table module to populate date in Table Structure
         ![spotify-this-song] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/spotify-this-song.png)
@@ -37,6 +36,6 @@ How to use this LIRI Bot:
 
     2d. node liri.js do-what-it-says
         Using fs module to read file from random.txt 
-![do-what-it-says] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/do-what-it-says.png)
+        ![do-what-it-says] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/do-what-it-says.png)
 
 Enjoy !! 
