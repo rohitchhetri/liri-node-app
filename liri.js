@@ -39,6 +39,13 @@ if (process.argv[2] == 'concert-this') {
         console.log("Venue location: " + result.venue.city);
         console.log("Date of Event: " + moment(result.datetime).format("MM/DD/YYYY"));
         console.log("##################################################################");
+
+        //add txt file 
+        fs.appendFile('log.txt', result.venue.name + result.venue.city + moment(result.datetime).format("MM/DD/YYYY"),(err) => {
+            if (err) throw err;
+            console.log('The "data to append" was appended to file!');
+        });
+            
     });
 
 } else if (process.argv[2] == 'spotify-this-song') {
@@ -58,6 +65,8 @@ if (process.argv[2] == 'concert-this') {
                 song_name: data.tracks.items[i].name,
                 album_name: data.tracks.items[i].album.name,
                 preview_url: data.tracks.items[i].preview_url
+
+                
             }
             tableArray.push(result);
         }
