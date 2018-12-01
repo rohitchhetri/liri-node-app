@@ -25,7 +25,7 @@ How to use this LIRI Bot:
     2a. node liri.js concert-this <anyartistname>
         Using Request Module here 
 
-        ![concert-this ScreenShot] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/concert-this.png)
+        ![concert-this](https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/concert-this.png)
 
 
     2b. node liri.js spotify-this-song <anysongname>
