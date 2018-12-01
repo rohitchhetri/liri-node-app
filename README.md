@@ -14,6 +14,7 @@ Node Application using Spotify API, Bandsintown Api &amp; OMDB API
 
 Screenshot: 
 
+![FullApplicationScreenshot](https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/Screenshot.png)
 
 
 How to use this LIRI Bot:
