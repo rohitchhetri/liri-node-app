@@ -23,24 +23,23 @@ How to use this LIRI Bot:
 2. In terminal we use differnt condition 
 
     2a. node liri.js concert-this <anyartistname>
-        Using Request Module here 
-
+        Using Request Module here     
         ![concert-this](https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/concert-this.png)
 
 
     2b. node liri.js spotify-this-song <anysongname>
         Using console.table module to populate date in Table Structure
 
-        ![spotify-this-song ScreenShot] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/spotify-this-song.png)
+  ![spotify-this-song ScreenShot] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/spotify-this-song.png)
  
     2c. node liri.js movie-this titanic
         Using request module
 
-        ![movie-this ScreenShot] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/movie-this.png)
+   ![movie-this ScreenShot] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/movie-this.png)
 
     2d. node liri.js do-what-it-says
         Using fs module to read file from random.txt 
 
-        ![do-what-it-says ScreenShot] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/do-what-it-says.png)
+  ![do-what-it-says ScreenShot] (https://github.com/rohitchhetri/liri-node-app/blob/master/screenshot/do-what-it-says.png)
 
 Enjoy !! 
